@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Julio Cesar</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/build.svg" alt="Selo Rocketseat" />
+          </span>
+          <img
+            src="https://images.unsplash.com/photo-1646382315248-44832828a39c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            alt="Foto pessoal"
+          />
+        </div>
+
+        <h1 id="userName">Mayk Brito</h1>
+        <a href="https://github.com/maykbrito" target="_blank">
+          <img src="images/github.svg" alt="ícone github"/>
+          maykbrito</a>
+
+        <p>An instructor focused on helping pople start programming for web</p>
+
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com/maykbrito" target="_blank">
+              <img
+                src="images/youtube.svg"
+                alt="ícone youtube"
+              />
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="https://facebook.com/maykbrito" target="_blank">
+              <img
+                src="images/facebook.svg"
+                alt="ícone facebook"
+              />
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="https://instagram.com/maykbrito" target="_blank">
+              <img
+                src="images/instagram.svg"
+                alt="ícone instagram"
+              />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/maykbrito" target="_blank">
+              <img
+                src="images/twitter.svg"
+                alt="ícone twitter"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script>
+       const linksSocialMedia = {
+        github: 'jravolio',
+        twitter: 'jravolio12',
+        facebook: 'juliocesar.junior.90',
+        instagram: 'jravolio',
+        youtube: 'jravolio'
+       }
+       
+       function changeSocialMediaLinks(){
+         userName.textContent = "Julio Cesar"
+        for (let li of socialLinks.children){
+          const social = li.getAttribute('class')
+          // alert(classeAtual)
+          li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
+        }
+      }
+      // FORA DE SCRIPT DA ROCKETSEAT
+
+       changeSocialMediaLinks()
+    </script>
+  </body>
+</html>
