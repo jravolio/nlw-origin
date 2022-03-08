@@ -1,6 +1,8 @@
-## - Objective ♟ <img src="./images/homescreen.png">
+## - Objective ♟ 
  this project is a site on a badge style, developed with the help of the Rocketseat classes. This project can easily be modified to fit any github profile it will get the bio, the name and the photo from your github profile, to access the site example you can [CLICK HERE](https://jravolio.github.io/nlw-origin/)
- 
+
+<img align="right" alt="GIF" src="./images/homescreen.png" width="380" height="500" />
+
 ## - How to setup ⛏
  Follow these steps =>
  
