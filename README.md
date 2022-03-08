@@ -1,5 +1,5 @@
 ## - Objective ♟
- this project is a site on a badge style, developed with the help of the Rocketseat classes. This project can easily be modified to fit any github profile.
+ this project is a site on a badge style, developed with the help of the Rocketseat classes. This project can easily be modified to fit any github profile it will get the bio, the name and the photo from your github profile, to access the site example you can [CLICK HERE](https://jravolio.github.io/nlw-origin/)
  
 ## - How to setup ⛏
  Follow these steps =>
@@ -25,7 +25,7 @@ const linksSocialMedia = {
 
 # Portuguese :brazil:
 ##  - Objetivo ♟
- O projeto é um site no estilo crachá desenvolvido a partir das video-aulas da Rocketseat que pode ser adequado para qualquer pessoa que possua uma conta no github.
+ O projeto é um site no estilo crachá desenvolvido a partir das video-aulas da Rocketseat que pode ser adequado para qualquer pessoa que possua uma conta no github obtendo foto de perfil, bio e nome diretamente do github. Para acessar o site de exemplo [CLIQUE AQUI](https://jravolio.github.io/nlw-origin/)
  
  ##  - Como utilizar ⛏
  para adequar o site para o seu perfil siga os seguintes passos =>
