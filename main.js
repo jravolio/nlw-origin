@@ -25,6 +25,21 @@ const linksSocialMedia = {
          userLink.href = data.html_url
          userImage.src = data.avatar_url
          userLogin.textContent = data.login
+         userPublicRepos.textContent = data.public_repos
+         if (data.company === null){
+            let deleteobj = userCompany
+            deleteobj.remove();
+         }
+         else{
+           userCompanyName.textContent = data.company
+         }
+         if (data.location === null){
+           let deleteobj = userLocationDiv
+           deleteobj.remove()
+         }
+         else{
+          userLocation.textContent = data.location
+         }
        })
     }
     getGithubProfileInfos()
